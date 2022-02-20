@@ -4,6 +4,7 @@
 #
 /[Ll]ibrary/*
 ![Ll]ibrary/EditorUserBuildSettings.asset
+![Ll]ibrary/InputUserSettings.json
 /[Tt]emp/
 /[Oo]bj/
 /[Bb]uild/
