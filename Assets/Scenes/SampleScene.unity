@@ -918,6 +918,7 @@ GameObject:
   - component: {fileID: 180915642}
   - component: {fileID: 180915644}
   - component: {fileID: 180915643}
+  - component: {fileID: 180915645}
   m_Layer: 0
   m_Name: Spectrometer_Part
   m_TagString: Untagged
@@ -967,6 +968,44 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.64109814, y: 1.3831493, z: 0.5765512}
   m_Center: {x: -0.052574277, y: 0.5076397, z: -0.11990219}
+--- !u!114 &180915645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 180915641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 193c362eb02741c43b31788b51c83d73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  focusEnabled: 1
+  prefab: {fileID: 1083549605185280, guid: afaef0108a478c44a9eac26658bc29bf, type: 3}
+  tooltipToggleAction:
+    id: 0
+    description: None
+    axisConstraint: 0
+  appearType: 0
+  vanishType: 0
+  remainType: 1
+  appearDelay: 0
+  vanishDelay: 2
+  lifetime: 1
+  keepWorldRotation: 1
+  settingsMode: 1
+  showBackground: 1
+  showOutline: 0
+  showConnector: 1
+  followType: 1
+  pivotMode: 0
+  pivotDirection: 1
+  pivotDirectionOrient: 0
+  manualPivotDirection: {x: 0, y: 1, z: 0}
+  manualPivotLocalPosition: {x: 0, y: 1.5, z: 0}
+  pivotDistance: 0.25
+  toolTipText: Spectrometer
+  anchor: {fileID: 0}
 --- !u!1 &204082044
 GameObject:
   m_ObjectHideFlags: 0
@@ -5816,6 +5855,7 @@ GameObject:
   m_Component:
   - component: {fileID: 770623709}
   - component: {fileID: 770623710}
+  - component: {fileID: 770623711}
   m_Layer: 0
   m_Name: UHFAntenna_Part
   m_TagString: Untagged
@@ -5851,6 +5891,44 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.20829713, y: 0.41267157, z: 0.20829725}
   m_Center: {x: 0, y: 0.20399863, z: 9.738211e-16}
+--- !u!114 &770623711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 770623708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 193c362eb02741c43b31788b51c83d73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  focusEnabled: 1
+  prefab: {fileID: 1083549605185280, guid: afaef0108a478c44a9eac26658bc29bf, type: 3}
+  tooltipToggleAction:
+    id: 0
+    description: None
+    axisConstraint: 0
+  appearType: 0
+  vanishType: 0
+  remainType: 1
+  appearDelay: 0
+  vanishDelay: 2
+  lifetime: 1
+  keepWorldRotation: 1
+  settingsMode: 1
+  showBackground: 1
+  showOutline: 0
+  showConnector: 1
+  followType: 1
+  pivotMode: 0
+  pivotDirection: 1
+  pivotDirectionOrient: 0
+  manualPivotDirection: {x: 0, y: 1, z: 0}
+  manualPivotLocalPosition: {x: 0, y: 1.5, z: 0}
+  pivotDistance: 0.25
+  toolTipText: UHF Antenna field
+  anchor: {fileID: 0}
 --- !u!1 &796406171
 GameObject:
   m_ObjectHideFlags: 0
@@ -11096,6 +11174,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1966575998}
   - component: {fileID: 1966575999}
+  - component: {fileID: 1966576000}
   m_Layer: 0
   m_Name: Lights_Part
   m_TagString: Untagged
@@ -11131,6 +11210,44 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.551725, y: 0.3064357, z: 0.4211414}
   m_Center: {x: 0.028746068, y: 0.15540433, z: -0.0027300715}
+--- !u!114 &1966576000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1966575997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 193c362eb02741c43b31788b51c83d73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  focusEnabled: 1
+  prefab: {fileID: 1083549605185280, guid: afaef0108a478c44a9eac26658bc29bf, type: 3}
+  tooltipToggleAction:
+    id: 0
+    description: None
+    axisConstraint: 0
+  appearType: 0
+  vanishType: 0
+  remainType: 1
+  appearDelay: 0
+  vanishDelay: 2
+  lifetime: 1
+  keepWorldRotation: 1
+  settingsMode: 1
+  showBackground: 1
+  showOutline: 0
+  showConnector: 1
+  followType: 1
+  pivotMode: 0
+  pivotDirection: 1
+  pivotDirectionOrient: 0
+  manualPivotDirection: {x: 0, y: 1, z: 0}
+  manualPivotLocalPosition: {x: 0, y: 1.5, z: 0}
+  pivotDistance: 0.25
+  toolTipText: Lights
+  anchor: {fileID: 0}
 --- !u!1 &1995826243
 GameObject:
   m_ObjectHideFlags: 0
@@ -11304,6 +11421,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2067287177}
   - component: {fileID: 2067287178}
+  - component: {fileID: 2067287179}
   m_Layer: 0
   m_Name: Generator_Part
   m_TagString: Untagged
@@ -11339,6 +11457,44 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.81234443, y: 0.55029565, z: 0.77334535}
   m_Center: {x: 0.00000017881393, y: 0.25768706, z: 0.000545884}
+--- !u!114 &2067287179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2067287176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 193c362eb02741c43b31788b51c83d73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  focusEnabled: 1
+  prefab: {fileID: 1083549605185280, guid: afaef0108a478c44a9eac26658bc29bf, type: 3}
+  tooltipToggleAction:
+    id: 0
+    description: None
+    axisConstraint: 0
+  appearType: 0
+  vanishType: 0
+  remainType: 1
+  appearDelay: 0
+  vanishDelay: 2
+  lifetime: 1
+  keepWorldRotation: 1
+  settingsMode: 1
+  showBackground: 1
+  showOutline: 0
+  showConnector: 1
+  followType: 1
+  pivotMode: 0
+  pivotDirection: 1
+  pivotDirectionOrient: 0
+  manualPivotDirection: {x: 0, y: 1, z: 0}
+  manualPivotLocalPosition: {x: 0, y: 1.5, z: 0}
+  pivotDistance: 0.25
+  toolTipText: Generator
+  anchor: {fileID: 0}
 --- !u!1 &2067661557
 GameObject:
   m_ObjectHideFlags: 0
@@ -11433,6 +11589,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2073061058}
   - component: {fileID: 2073061059}
+  - component: {fileID: 2073061060}
   m_Layer: 0
   m_Name: Camera_Part
   m_TagString: Untagged
@@ -11468,6 +11625,44 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.5499997, y: 1.0644407, z: 0.29684544}
   m_Center: {x: -0.048043907, y: 0.42297912, z: 0.0059459507}
+--- !u!114 &2073061060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2073061057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 193c362eb02741c43b31788b51c83d73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  focusEnabled: 1
+  prefab: {fileID: 1083549605185280, guid: afaef0108a478c44a9eac26658bc29bf, type: 3}
+  tooltipToggleAction:
+    id: 0
+    description: None
+    axisConstraint: 0
+  appearType: 0
+  vanishType: 0
+  remainType: 1
+  appearDelay: 0
+  vanishDelay: 2
+  lifetime: 1
+  keepWorldRotation: 1
+  settingsMode: 1
+  showBackground: 1
+  showOutline: 0
+  showConnector: 1
+  followType: 1
+  pivotMode: 0
+  pivotDirection: 1
+  pivotDirectionOrient: 0
+  manualPivotDirection: {x: 0, y: 1, z: 0}
+  manualPivotLocalPosition: {x: 0, y: 1.5, z: 0}
+  pivotDistance: 0.25
+  toolTipText: Camera
+  anchor: {fileID: 0}
 --- !u!1 &2091148146
 GameObject:
   m_ObjectHideFlags: 0
