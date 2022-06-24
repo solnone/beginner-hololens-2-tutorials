@@ -1,7 +1,6 @@
 using Microsoft.MixedReality.Toolkit.UI;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Events;
 
 [RequireComponent(typeof(ScrollingObjectCollection))]
 public class ScrollingObjectCollectionUpdater : MonoBehaviour
@@ -42,7 +41,7 @@ public class ScrollingObjectCollectionUpdater : MonoBehaviour
 
     public void ClearButtons()
     {
-        soc.ClipBox.ClearRenderers();
+        // soc.ClipBox.ClearRenderers();
         gocu.ClearButtons();
     }
 }
