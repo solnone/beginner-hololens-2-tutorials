@@ -5,20 +5,6 @@ using UnityEngine;
 [RequireComponent(typeof(ScrollingObjectCollection))]
 public class ScrollingObjectCollectionUpdater : MonoBehaviour
 {
-    [System.Serializable]
-    public struct Button
-    {
-        public string Id;
-        public string Name;
-        public string IconName;
-
-        public Button(string id, string name, string iconName)
-        {
-            Id = id;
-            Name = name;
-            IconName = iconName;
-        }
-    }
 
     private ScrollingObjectCollection soc;
     private GridObjectCollectionUpdater gocu;
@@ -29,7 +15,7 @@ public class ScrollingObjectCollectionUpdater : MonoBehaviour
         gocu = GetComponentInChildren<GridObjectCollectionUpdater>();
     }
 
-    public void AddButtons(List<Button> buttons)
+    public void AddButtons(List<ButtonSet.Button> buttons)
     {
         foreach (var button in buttons)
         {

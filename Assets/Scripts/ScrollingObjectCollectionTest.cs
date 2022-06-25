@@ -11,20 +11,21 @@ public class ScrollingObjectCollectionTest : MonoBehaviour
     [SerializeField]
     private TextMeshPro touchMessage;
     [SerializeField]
-    private List<ScrollingObjectCollectionUpdater.Button> buttons;
-
-
+    private ButtonSet buttonSets;
+    private List<ButtonSet.Button> buttons;
 
     private ScrollingObjectCollectionUpdater updater;
     void Start()
     {
         updater = GetComponent<ScrollingObjectCollectionUpdater>();
-        if (buttons.Count == 0)
+        if (!buttonSets || buttonSets.buttons.Length == 0)
         {
+            buttons = new();
             Test();
         }
         else
         {
+            buttons = new(buttonSets.buttons);
             updater.AddButtons(buttons);
         }
     }
