@@ -78,7 +78,7 @@ public class ScrollingObjectCollectionTest : MonoBehaviour
         Invoke(nameof(ClearButtons), 8.0f);
         Invoke(nameof(AddIcons), 15.0f);
         Invoke(nameof(AddIcons2), 16.0f);
-        Invoke(nameof(AddIcons), 17.0f);
+        Invoke(nameof(AddIcons3), 17.0f);
         Invoke(nameof(AddIcons2), 18.0f);
     }
 
@@ -102,6 +102,19 @@ public class ScrollingObjectCollectionTest : MonoBehaviour
         AddButton($"Ninth {DateTime.Now:HH:mm:ss.fff}", "Ninth", "IconHome");
         AddButton($"Tenth {DateTime.Now:HH:mm:ss.fff}", "Tenth", "IconPin");
         AddButton($"Eleventh {DateTime.Now:HH:mm:ss.fff}", "Eleventh", "IconProfiler");
+        updater.AddButtons(buttons);
+    }
+
+    void AddIcons3()
+    {
+        buttons.Clear();
+        AddButton($"First {DateTime.Now:HH:mm:ss.fff}", "一", "IconClose");
+        AddButton($"Second {DateTime.Now:HH:mm:ss.fff}", "二", "IconDone");
+        AddButton($"Third {DateTime.Now:HH:mm:ss.fff}", "三", "IconHide");
+        AddButton($"Fourth {DateTime.Now:HH:mm:ss.fff}", "四", "IconShow");
+        AddButton($"Fifth {DateTime.Now:HH:mm:ss.fff}", "五", "IconFollowMe");
+        AddButton($"Sixth {DateTime.Now:HH:mm:ss.fff}", "六", "IconHandJoint");
+        AddButton($"Seventh {DateTime.Now:HH:mm:ss.fff}", "七", "IconHandMesh");
         updater.AddButtons(buttons);
     }
 }
